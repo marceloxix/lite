@@ -44,8 +44,8 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/Zilzalll/ZThon"
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "lite"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/marceloxix/Tige"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "main"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
