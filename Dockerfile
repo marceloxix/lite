@@ -1,6 +1,6 @@
 FROM marceloxix/tiger:slim-buster
 
-RUN git clone https://github.com/marceloxix/Tige.git /root/zira
+RUN git clone https://github.com/marceloxix/Tiger.git /root/zira
 
 WORKDIR /root/zira
 
